@@ -5,24 +5,30 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-1.11.2.js"></script>
     <script src="js/scripts.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Noto+Serif:400,400italic' rel='stylesheet' type='text/css'>
     <title>Coin Counter</title>
   </head>
   <body>
-    <div class="form-group">
-      <form id="change">
-        <label for="amount">Enter the amount:</label>
-        <input type="text" id="amount" placeholder="eg. 65 for .65 cents">
-        <button type="submit" class="btn btn-primary">Convert</button>
-      </form>
-    </div>
-    <div id="result">
-      <p>Your perfect coin match for <span class="amount"></span> cents would be as follows:</p>
-      <ul>
-        <li><span class="quarter"></span> Quarters</li>
-        <li><span class="dime"></span> Dimes</li>
-        <li><span class="nickel"></span> Nickels</li>
-        <li><span class="penny"></span> Pennies</li>
-      </ul>
+    <div class="container">
+			<div class="page-header">
+        <h1>Coin Counter<small> count your change, count it well.</small></h1>
+      </div>
+      <div class="form-group">
+        <form id="change">
+          <label for="amount">Enter the amount:</label>
+          <input type="text" id="amount" placeholder="eg. 65 for .65 cents">
+          <button type="submit" class="btn btn-sml-default">Convert</button>
+        </form>
+      </div>
+      <div id="result">
+        <p>Your perfect coin match for <span class="amount"></span> cents would be as follows:</p>
+        <ul>
+          <li><span class="quarter"></span> Quarters</li>
+          <li><span class="dime"></span> Dimes</li>
+          <li><span class="nickel"></span> Nickels</li>
+          <li><span class="penny"></span> Pennies</li>
+        </ul>
+      </div>
     </div>
   </body>
 </html>

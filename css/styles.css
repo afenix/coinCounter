@@ -1,13 +1,13 @@
 body {
   background-color: #006151;
-
+  font-family: 'Noto Serif', 'serif';
 }
 
 .container {
-  background-color: #18B197;
+  background-color: #E4E4E4;
   margin-top: 15%;
-  width: 400px;
-  height: 350px;
+  width: 500px;
+  height: 550px;
   margin-left: 0 auto;
   padding: 15px;
   border: solid #007B66;
@@ -31,7 +31,7 @@ p {
 
 #submit-btn {
   margin-left: 23px;
-  float:left;
+  float:right;
 
 }
 
